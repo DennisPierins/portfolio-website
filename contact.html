@@ -41,19 +41,23 @@
     Skype <a href="skype:dennispierins@gmail.com">dennispierins@gmail.com</a><br>
     <a href="mailto:dennispierins@gmail.com">dennispierins@gmail.com</a><br>
     <a href="mailto:dennispierins@gmail.com">Contact me</a>
-</div><br>
-<form action="" method="post" id="contact-form" class="profile">
-  <label class="standard-label" for="contact-email">E-mail: </label>
-  <input type="email" id="contact-email"required>
 
-  <label class="standard-label" for="contact-tel">Telephone: </label>
-  <input type="tel" id="contact-tel">
+<div class="contact-title">
+  <h1> Contact Me </h1>
+</div>
 
-  <label class="standard-label" for="contact-msg">Message: </label>
-  <textarea maxlength="240" id="contact-msg" required></textarea>
-
-  <input type="submit" value="Send message">
-</form>
+<div class="contact-form">
+  <label>
+  <form id="contact-form" method="post" action="">
+  <input name="email" type="email" class="standard-label" placeholder="Your Email Address" required>
+  <br>
+  <input name="telephone" type="tel" class="standard-label" placeholder="Your Telephone Number">
+  <br>
+    <textarea name="message" class="standard-label" placeholder="Message" maxlength="240" required></textarea>
+    <br>
+    <input type="submit" class="standard-label submit" value="Send message">
+  </form>
+</div>
 <footer class="page-footer">
   <p>Find me on</p>
   <div class="social-media">
