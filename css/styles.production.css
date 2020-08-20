@@ -11,26 +11,28 @@
 }
 
 body {
-  background-color: #D3C4C0;
+  background-color: #d3c4c0;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 16px;
+
   /* Sets the font size to 16px */
   line-height: 1.6;
+
   /* Sets the line-height to 1.6 */
 }
 
-h1{
+h1 {
   font-weight: 700;
   font-size: 30px;
 }
 
-h2{
+h2 {
   font-weight: 700;
   font-size: 24px;
 }
 
-h3{
+h3 {
   font-weight: 700;
   font-size: 18px;
 }
@@ -39,7 +41,8 @@ a {
   color: #357b70;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   /* No underlining when hovering over a link */
   text-decoration: none;
 }
@@ -56,28 +59,31 @@ a:active {
 
 button,
 .button {
-/* your styling goes here */
+  /* your styling goes here */
 }
 
 button:hover,
 button:focus,
 .button:hover,
 .button:focus {
-/* your styling goes here */
+  /* your styling goes here */
 }
 
 .button {
   /* overwrites browser defaults and resets the border */
   border: none;
   display: inline-block;
+
   /* takes the font from the outer container */
   font-family: inherit;
+
   /* styles the button */
   background-color: #357b70;
   color: white;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
+
   /* width of the border, type, color */
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition-duration: 1s;
@@ -92,14 +98,17 @@ button {
   /* overwrites browser defaults and resets the border */
   border: none;
   display: inline-block;
+
   /* takes the font from the outer container */
   font-family: inherit;
+
   /* styles the button */
   background-color: #357b70;
   color: white;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
+
   /* width of the border, type, color */
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition-duration: 1s;
@@ -116,6 +125,7 @@ button:focus,
 .button:focus {
   /* lets the mouse appear as a hand when hovering over the button */
   cursor: pointer;
+
   /* reduces the opacity of the button to 80% */
   opacity: 0.8;
 }
@@ -139,14 +149,14 @@ button:focus,
   text-align: center;
 }
 
-form{
+form {
   margin-top: 50px;
   -webkit-transition: all 4s ease-in-out;
   -o-transition: all 4s ease-in-out;
   transition: all 4s ease-in-out;
 }
 
-.standard-label{
+.standard-label {
   width: 600px;
   background: transparent;
   border: none;
@@ -157,11 +167,11 @@ form{
   margin-bottom: 16px;
 }
 
-input{
+input {
   height: 45px;
 }
 
-form .submit{
+form .submit {
   background: #ff5722;
   border-color: transparent;
   color: transparent;
@@ -170,16 +180,15 @@ form .submit{
   letter-spacing: 2px;
   height: 50px;
   margin-top: 20px;
-  color: #fff;
 }
 
-form .submit:hover{
-  background-color: #44336;
+form .submit:hover {
+  background-color: #f44336;
   cursor: pointer;
   opacity: 0.8;
 }
 
-.contact-form{
+.contact-form {
   max-width: 700px;
   margin: auto;
   text-align: center;
@@ -272,9 +281,11 @@ form .submit:hover{
   0% {
     fill: #edc655;
   }
+
   50% {
     fill: #fcffad;
   }
+
   100% {
     fill: #f76414;
   }
@@ -284,9 +295,11 @@ form .submit:hover{
   0% {
     fill: #edc655;
   }
+
   50% {
     fill: #fcffad;
   }
+
   100% {
     fill: #f76414;
   }
@@ -303,20 +316,24 @@ form .submit:hover{
     grid-template-columns: 1fr;
   }
 }
-@media all and (min-width: 500px) and (max-width: 750px){
+
+@media all and (min-width: 500px) and (max-width: 750px) {
   .grid {
     -ms-grid-columns: 1fr 20px 1fr;
     grid-template-columns: 1fr 1fr;
   }
 }
+
 @media all and (max-width: 750px) {
   .grid {
     grid-gap: 10px;
   }
+
   .grid__item:last-child {
     grid-column: auto / auto;
     grid-row: auto / auto;
   }
+
   h1 {
     font-size: 22px;
   }
