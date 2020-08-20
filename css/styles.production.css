@@ -7,11 +7,11 @@
 
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-  background-color: #d3c4c0;
+  background-color: #f0f8ff;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -87,8 +87,8 @@ button:focus,
   /* width of the border, type, color */
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition-duration: 1s;
-       -o-transition-duration: 1s;
-          transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
   -webkit-transition-property: opacity;
   -o-transition-property: opacity;
   transition-property: opacity;
@@ -209,8 +209,8 @@ form .submit:hover {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   text-align: center;
 }
 
@@ -234,15 +234,15 @@ form .submit:hover {
 
 .page-header__item {
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 200px;
-          flex: 0 1 200px;
+  -ms-flex: 0 1 200px;
+  flex: 0 1 200px;
   margin: 10px;
 }
 
 .page-header__item:last-child {
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
   text-align: right;
 }
 
@@ -307,7 +307,7 @@ form .submit:hover {
 
 .sun {
   -webkit-animation: 4s color-change infinite alternate linear;
-          animation: 4s color-change infinite alternate linear;
+  animation: 4s color-change infinite alternate linear;
 }
 
 @media all and (max-width: 500px) {
