@@ -112,8 +112,8 @@ button {
   /* width of the border, type, color */
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition-duration: 1s;
-       -o-transition-duration: 1s;
-          transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
   -webkit-transition-property: opacity;
   -o-transition-property: opacity;
   transition-property: opacity;
@@ -174,7 +174,7 @@ input {
 form .submit {
   background: #ff5722;
   border-color: transparent;
-  color: transparent;
+  color: #fff;
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 2px;
