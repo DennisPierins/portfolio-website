@@ -218,13 +218,13 @@ form .submit:hover {
 }
 
 .grid__item {
-  background-color: lightgray;
+  background-color: #C5EAFA;
   padding: 10px;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
 }
 
