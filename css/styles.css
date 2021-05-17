@@ -58,18 +58,6 @@ a:active {
   color: var(--active-link-color);
 }
 
-button,
-.button {
-  /* your styling goes here */
-}
-
-button:hover,
-button:focus,
-.button:hover,
-.button:focus {
-  /* your styling goes here */
-}
-
 .button,
 button {
   /* overwrites browser defaults and resets the border */
