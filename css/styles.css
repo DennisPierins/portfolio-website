@@ -359,11 +359,24 @@ form .submit:hover {
   .grid {
     grid-template-columns: 1fr;
   }
+  .course-container {
+    min-width: 100% !important;
+  }
+  .accordion {
+    min-width: 100% !important;
+  }
 }
 
 @media all and (min-width: 500px) and (max-width: 750px) {
   .grid {
     grid-template-columns: 1fr 1fr;
+    min-width: 100% !important;
+  }
+  .course-container {
+    min-width: 100% !important;
+  }
+  .accordion {
+    min-width: 100% !important;
   }
 }
 
