@@ -358,6 +358,7 @@ form .submit:hover {
 @media all and (max-width: 500px) {
   .grid {
     grid-template-columns: 1fr;
+    overflow-x: hidden;
   }
   .course-container {
     min-width: 100% !important;
@@ -371,6 +372,7 @@ form .submit:hover {
   .grid {
     grid-template-columns: 1fr 1fr;
     min-width: 100% !important;
+    overflow-x: hidden;
   }
   .course-container {
     min-width: 100% !important;
