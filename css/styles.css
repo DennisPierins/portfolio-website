@@ -447,6 +447,9 @@ form .submit:hover {
   .accordion {
     min-width: 100% !important;
   }
+  .answer li {
+    font-size: 17px;
+  }
 }
 
 @media all and (min-width: 500px) and (max-width: 750px) {
