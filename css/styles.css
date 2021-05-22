@@ -351,8 +351,8 @@ form .submit:hover {
 }
 
 .course-container {
-  width: 70%;
-  max-width: 80rem;
+  width: 50%;
+  max-width: 50rem;
   margin: 0 auto;
   padding: 0 1.5rem;
 }
