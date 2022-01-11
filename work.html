@@ -1,138 +1,249 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon_io/site.webmanifest" />
+    <title>Dennis Pierins' Work</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/styles.production.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
-  <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
-  <link rel="manifest" href="favicon_io/site.webmanifest">
-  <title>Dennis Pierins' Work</title>
-  <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/styles.production.css">
-</head>
-
-<body>
-  <header class="page-header">
-    <img src="img/logo.png" alt="Personal logo of Dennis Pierins" class="page-header__item" width="175" height="150">
-    <nav class="main-navigation page-header__item">
-      <ul role="menubar" class="navigation-list">
-        <li role="presentation">
-          <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
-        </li>
-        <li role="presentation">
-          <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
-        </li>
-        <li role="presentation">
-          <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
-        </li>
-        <li role="presentation">
-          <a href="work.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Work</a>
-        </li>
-        <li role="presentation">
-          <a href="course.html" role="menuitem" class="navigation-list__item">Course</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <!-- Main content -->
-  <section>
-    <h1 style="text-align: center">Work</h1>
-    <div class="grid">
-      <div class="grid__item">
-        <h2>pokédex</h2>
-        <img src="img/Pokedex.PNG" alt="pokedex image" class="pokemon-app">
-        <p>
-          pokédex is a small web application built with <b>HTML, CSS & JavaScript</b>.
-          It loads data from an external API and enables the viewing of data points in detail.
-        </p>
-        <a href="https://github.com/DennisPierins/pokedex" target="_blank">See project on GitHub</a><br>
-        <a href="https://dennispierins.github.io/pokedex/index.html" target="_blank">Check it out!</a>
+  <body>
+    <header class="page-header">
+      <img
+        src="img/logo.png"
+        alt="Personal logo of Dennis Pierins"
+        class="page-header__item"
+        width="175"
+        height="150"
+      />
+      <nav class="main-navigation page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a href="index.html" role="menuitem" class="navigation-list__item"
+              >Home</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="about.html" role="menuitem" class="navigation-list__item"
+              >About</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="contact.html" role="menuitem" class="navigation-list__item"
+              >Contact</a
+            >
+          </li>
+          <li role="presentation">
+            <a
+              href="work.html"
+              role="menuitem"
+              class="navigation-list__item navigation-list__item--active"
+              >Work</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="course.html" role="menuitem" class="navigation-list__item"
+              >Course</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Main content -->
+    <section>
+      <h1 style="text-align: center">Work</h1>
+      <div class="grid">
+        <div class="grid__item">
+          <h2>pokédex</h2>
+          <img src="img/Pokedex.PNG" alt="pokedex image" class="pokemon-app" />
+          <p>
+            pokédex is a small web application built with
+            <b>HTML, CSS & JavaScript</b>. It loads data from an external API
+            and enables the viewing of data points in detail.
+          </p>
+          <a href="https://github.com/DennisPierins/pokedex" target="_blank"
+            >See project on GitHub</a
+          ><br />
+          <a
+            href="https://dennispierins.github.io/pokedex/index.html"
+            target="_blank"
+            >Check it out!</a
+          >
+        </div>
+        <div class="grid__item">
+          <h2>movie_api</h2>
+          <img
+            src="img/movie_api.PNG"
+            alt="movie_api image"
+            class="movie-api"
+          />
+          <p>
+            movie_api is a server-side component of a movies web application. It
+            provides users with access to information about different movies,
+            directors and genres. Users are able to sign up, update their
+            personal info and create a list of their favorite movies.
+          </p>
+          <a href="https://github.com/DennisPierins/movie_api" target="_blank"
+            >See project on GitHub</a
+          >
+        </div>
+        <div class="grid__item">
+          <h2>the-myFlix-client</h2>
+          <img src="img/myFlix.PNG" alt="myFlix image" class="myFlix" />
+          <p>
+            myFlix is built using
+            <b>MERN (MongoDB, Express, React & Node.js)</b> and is a single-page
+            application. It builds further on its existing server-side code (the
+            aforementioned movie_api). Users are able to register an account,
+            log into their account, filter & sort movies, view movie details,
+            add movies to their favourites list and much more!<br />
+            <b
+              >Update: I have recently completely remade this project. The
+              client is now styled with React Bootstrap.</b
+            >
+          </p>
+          <a
+            href="https://github.com/DennisPierins/myFlix-client-V2"
+            target="_blank"
+            >Updated version: See project on GitHub</a
+          >
+          <br />
+          <a href="https://myflixv2.netlify.app/" target="_blank"
+            >Updated Version: Check it out!</a
+          >
+          <br />
+          <a
+            href="https://github.com/DennisPierins/the-myFlix-client"
+            target="_blank"
+            >Older version: See project on GitHub</a
+          ><br />
+          <a href="https://myflixmoviedb.netlify.app/" target="_blank"
+            >Older version: Check it out!</a
+          >
+        </div>
+        <div class="grid__item">
+          <h2>meet</h2>
+          <img src="img/meet.PNG" alt="meet image" class="meet" />
+          <p>
+            meet is a serverless, progressive web application (PWA) built with
+            the <b>React framework</b>. It uses a test-driven development
+            technique. The application uses the Google Calendar API to fetch
+            upcoming events. Users can filter events by city, show/hide events
+            details, specify number of events, add an app shortcut to their home
+            screen and even use it offline!
+          </p>
+          <a href="https://github.com/DennisPierins/meet" target="_blank"
+            >See project on GitHub</a
+          ><br />
+          <a href="https://dennispierins.github.io/meet" target="_blank"
+            >Check it out!</a
+          >
+        </div>
+        <div class="grid__item">
+          <h2>chat-app</h2>
+          <!-- <img src="img/Startscreenchatapp.PNG" alt="chat app image" class="chat"> -->
+          <img
+            src="img/Chatscreenchatapp.PNG"
+            alt="chat app image"
+            class="chat2"
+          />
+          <p>
+            chat-app is a chat application for mobile devices developed with
+            <b>React Native</b>, Expo's Gifted Chat and Google Firebase. The app
+            provides users with a chat interface and options to share their
+            images and locations.
+          </p>
+          <a href="https://github.com/DennisPierins/chat-app" target="_blank"
+            >See project on GitHub</a
+          >
+        </div>
+        <div class="grid__item">
+          <h2>myFlix-Angular-client</h2>
+          <img
+            src="img/myflix-angular-client.PNG"
+            alt="myFlix angular image"
+            class="myFlix-angular"
+          />
+          <p>
+            myflix-angular-client is the second client-side for an application
+            named myFlix based on its existing server-side code (movie_api).
+            This time it's built using the <b>Angular framework</b>. Users can
+            register an account, log in, view all the listed movies' genre,
+            director and synopsis, add a movie to their favourites list, update
+            and delete their account.
+          </p>
+          <a
+            href="https://github.com/DennisPierins/myFlix-Angular-client"
+            target="_blank"
+            >See project on GitHub</a
+          ><br />
+          <a
+            href="https://dennispierins.github.io/myFlix-Angular-client/welcome"
+            target="_blank"
+            >Check it out!</a
+          >
+        </div>
       </div>
-      <div class="grid__item">
-        <h2>movie_api </h2>
-        <img src="img/movie_api.PNG" alt="movie_api image" class="movie-api">
-        <p>
-          movie_api is a server-side component of a movies web application. It provides users with access to information
-          about different movies, directors and genres.
-          Users are able to sign up, update their personal info and create a list of their favorite movies.
-        </p>
-        <a href="https://github.com/DennisPierins/movie_api" target="_blank">See project on GitHub</a>
+    </section>
+    <footer class="page-footer">
+      <p>Find me on</p>
+      <div class="social-media">
+        <!-- Github logo -->
+        <a
+          href="https://www.github.com/dennispierins"
+          target="_blank"
+          class="social-media"
+        >
+          <img src="img/github_icon.svg" alt="github" />
+        </a>
+        <!-- Twitter logo -->
+        <a
+          href="https://www.twitter.com/denniscoding"
+          target="_blank"
+          class="social-media"
+        >
+          <img src="img/twitter_icon.svg" alt="twitter" />
+        </a>
+        <!-- LinkedIn logo -->
+        <a
+          href="https://www.linkedin.com/in/dennis-pierins-4296241b4/"
+          target="_blank"
+          class="social-media"
+        >
+          <img src="img/linkedin_icon.svg" alt="linkedin" />
+        </a>
       </div>
-      <div class="grid__item">
-        <h2>the-myFlix-client</h2>
-        <img src="img/myFlix.PNG" alt="myFlix image" class="myFlix">
-        <p>
-          myFlix is built using <b>MERN (MongoDB, Express, React & Node.js)</b> and is a single-page application. It
-          builds
-          further on its existing
-          server-side code (the aforementioned movie_api).
-          Users are able to register an account, log into their account, filter & sort movies, view movie details, add
-          movies to their favourites list and much more!
-        </p>
-        <a href="https://github.com/DennisPierins/the-myFlix-client" target="_blank">See project on GitHub</a><br>
-        <a href="https://myflixmoviedb.netlify.app/" target="_blank">Check it out!</a>
-      </div>
-      <div class="grid__item">
-        <h2>meet</h2>
-        <img src="img/meet.PNG" alt="meet image" class="meet">
-        <p>
-          meet is a serverless, progressive web application (PWA) built with the <b>React framework</b>. It uses a
-          test-driven
-          development technique. The application uses the Google Calendar API to fetch upcoming events.
-          Users can filter events by city, show/hide events details, specify number of events, add an app shortcut to
-          their home screen and even use it offline!
-        </p>
-        <a href="https://github.com/DennisPierins/meet" target="_blank">See project on GitHub</a><br>
-        <a href="https://dennispierins.github.io/meet" target="_blank">Check it out!</a>
-      </div>
-      <div class="grid__item">
-        <h2>chat-app</h2>
-        <!-- <img src="img/Startscreenchatapp.PNG" alt="chat app image" class="chat"> -->
-        <img src="img/Chatscreenchatapp.PNG" alt="chat app image" class="chat2">
-        <p>
-          chat-app is a chat application for mobile devices developed with <b>React Native</b>, Expo's Gifted Chat and
-          Google
-          Firebase. The app provides users with a chat interface and options to share their images and locations.
-        </p>
-        <a href="https://github.com/DennisPierins/chat-app" target="_blank">See project on GitHub</a>
-      </div>
-      <div class="grid__item">
-        <h2>myFlix-Angular-client</h2>
-        <img src="img/myflix-angular-client.PNG" alt="myFlix angular image" class="myFlix-angular">
-        <p>
-          myflix-angular-client is the second client-side for an application named myFlix based on its existing
-          server-side code (movie_api). This time it's built using the <b>Angular framework</b>. Users can register an
-          account,
-          log in, view all the listed movies' genre, director and synopsis, add a movie to their favourites list, update
-          and delete their account.
-        </p>
-        <a href="https://github.com/DennisPierins/myFlix-Angular-client" target="_blank">See project on GitHub</a><br>
-        <a href="https://dennispierins.github.io/myFlix-Angular-client/welcome" target="_blank">Check it out!</a>
-      </div>
-    </div>
-  </section>
-  <footer class="page-footer">
-    <p>Find me on</p>
-    <div class="social-media">
-      <!-- Github logo -->
-      <a href="https://www.github.com/dennispierins" target="_blank" class="social-media">
-        <img src="img/github_icon.svg" alt="github">
-      </a>
-      <!-- Twitter logo -->
-      <a href="https://www.twitter.com/denniscoding" target="_blank" class="social-media">
-        <img src="img/twitter_icon.svg" alt="twitter">
-      </a>
-      <!-- LinkedIn logo -->
-      <a href="https://www.linkedin.com/in/dennis-pierins-4296241b4/" target="_blank" class="social-media">
-        <img src="img/linkedin_icon.svg" alt="linkedin">
-      </a>
-    </div>
-  </footer>
-  <script src="js/tota11y.min.js"></script>
-</body>
-
+    </footer>
+    <script src="js/tota11y.min.js"></script>
+  </body>
 </html>
